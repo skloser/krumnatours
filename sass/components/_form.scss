@@ -35,12 +35,7 @@
         &::-webkit-input-placeholder {
             color: $color-grey-dark-2;
         }
-        
-
-
     }
-
-    
 
     &__label {
         font-size: 1.2rem;
@@ -50,8 +45,7 @@
         display: block;
         transition: all 0.3s;
     }
-
-
+    
     // When using sibling selector("+") - the order of the elements is important(label is after input) 
     &__input:placeholder-shown + &__label {
         opacity: 0;
